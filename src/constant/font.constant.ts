@@ -1,0 +1,7 @@
+export const FONTWEIGHTS = {
+    FONT_WEIGHT_LIGHT: 400,
+    FONT_WEIGHT_REGULAR: 500,
+    FONT_WEIGHT_MEDIUM: 600,
+} as const;
+
+export const DEFAULT_LINE_HEIGHT = '150%';
