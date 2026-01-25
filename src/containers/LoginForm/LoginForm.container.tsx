@@ -146,7 +146,7 @@ export const LoginForm = (props: LoginFormProps) => {
         },
         {
             id: 'input-2',
-            placeholder: 'Token',
+            placeholder: 'Personal Access Token',
             icon: VpnKeyIcon,
             onChange: (e) => setToken(e.target.value.trim()),
             error: errorToken,
